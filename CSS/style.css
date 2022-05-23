@@ -248,6 +248,7 @@ header {
     border-left: 1px solid #dedede;
     border-right: 1px solid #dedede;
     border-bottom: 1px solid #dedede;
+    height: 1120px;
 }
 
 .m-right {
@@ -255,7 +256,7 @@ header {
 }
 
 .content {
-    padding: 30px 20px;
+    margin: 0 15px;
 }
 
 
