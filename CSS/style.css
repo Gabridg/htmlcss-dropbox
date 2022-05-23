@@ -82,6 +82,10 @@ h3 {
     margin-bottom: 70px;
 }
 
+.pd-right {
+    padding-right: 25px;
+}
+
 /* Navbar */
 .navbar {
     height: 80px;
@@ -230,7 +234,7 @@ header {
 /* First section/ Business paln */
 .column-busi {
     max-width: 100%;
-    margin-bottom: 300px;
+    margin-bottom: 100px;
 }
 
 .n-team {
@@ -292,9 +296,64 @@ hr.mg-top-xl {
 
 .colu {
     width: calc(100% / 3);
-    padding-right: 25px;
 }
 
 .column-busi.flex {
     align-items: flex-start;
+}
+
+.type-pack {
+    display: flex;
+    justify-content: space-between;
+}
+
+.border {
+    border-left: 1px solid #dedede;
+    border-right: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+}
+
+.col-large {
+    min-height: 300px;
+}
+
+.large-col {
+    text-align: left;
+}
+
+.large-col .btn-blu {
+    text-decoration: none;
+}
+
+.large-col .type-cont p {
+    margin-right: calc(100% / 3);
+}
+
+.pic-partner img {
+    height: 500px;
+}
+
+.pic-partner {
+    width: calc(100% / 3 * 2)
+}
+
+.caption {
+    width: calc(100% / 3);
+    padding-left: 50px;
+}
+
+.caption h3 {
+    font-size: 20px;
+}
+
+.btn-trans a {
+    text-decoration: none;
+    color: #000;
+    width: 130px;
+    display: block;
+    border: 1px solid black;
+    height: 40px;
+    line-height: 40px;
+    padding: 4px 5px;
+
 }
