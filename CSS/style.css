@@ -17,10 +17,27 @@ h1 {
 
 
 /* Utilities */
+
 .flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.title-main {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.btn-blu {
+    display: block;
+    height: 30px;
+    width: 220px;
+    color: #fff;
+    background-color: #0061ff;
+    line-height: 30px;
+    padding: 3px 5px;
+    text-align: center;
 }
 
 /* Navbar */
@@ -31,6 +48,7 @@ h1 {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1;
 }
 
 
@@ -59,9 +77,79 @@ h1 {
 
 
 
-/* Header */
+/* header */
 
 header {
     background-color: #b4d0e7;
-    height: 5000px;
+    height: 820px;
+}
+
+header .container-big {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 170px;
+}
+
+/* Jumbotron */
+
+.title-main {
+    margin-bottom: 50px;
+}
+
+.left-header {
+    width: calc(100% / 3);
+    margin-bottom: 30px;
+}
+
+.right-header {
+    width: calc(100% / 3 * 2);
+    position: relative;
+    bottom: 0;
+    right: 0;
+    height: 470px;
+}
+
+
+
+.right-header img {
+    position: absolute;
+    height: 100%;
+    display: block;
+}
+
+.head-row.flex {
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.left-header .description {
+    margin-bottom: 30px;
+}
+
+
+.left-header .subscribe {
+    margin-bottom: 90px;
+}
+
+.subscribe ul {
+    list-style-type: none;
+    margin-bottom: 30px;
+}
+
+.subscribe a {
+    text-decoration: none;
+}
+
+.arrow {
+    margin: 10px 0;
+}
+
+.arrow ul {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.arrow a {
+    color: #000;
+    text-decoration: none;
 }
