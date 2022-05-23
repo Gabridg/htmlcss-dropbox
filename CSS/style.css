@@ -5,6 +5,63 @@
 }
 
 /* Generals */
+
 body {
     font-family: 'Open Sans', sans-serif;
+    color: #424129;
+}
+
+h1 {
+    color: #000;
+}
+
+
+/* Utilities */
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Navbar */
+.navbar {
+    height: 80px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    padding: 25px;
+    color: #424129;
+}
+
+.navbar .btn-small {
+    display: block;
+    height: 30px;
+    width: 70px;
+    margin: 10px;
+    background-color: #0061ff;
+    color: #fff;
+    line-height: 30px;
+    text-align: center;
+    padding: 0;
+}
+
+
+
+
+/* Header */
+
+header {
+    background-color: #b4d0e7;
+    height: 5000px;
 }
