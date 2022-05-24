@@ -522,3 +522,47 @@ hr.mg-top-xl {
     justify-content: space-between;
     padding-right: 20px;
 }
+
+
+/* Footer */
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+footer {
+    background-color: #000;
+    min-height: 500px;
+}
+
+.footer-col h3 {
+    color: #fff;
+    font-size: 25px;
+}
+
+.footer-col li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-col ul {
+    list-style-type: none;
+    line-height: 35px;
+}
+
+.footer-col {
+    max-width: calc(100% / 5);
+}
+
+footer .container-big hr {
+    max-width: 10%;
+    color: #fff;
+}
+
+#lang {
+    background-color: #000;
+    color: #999999;
+    font-size: 15px;
+    border: none;
+}
