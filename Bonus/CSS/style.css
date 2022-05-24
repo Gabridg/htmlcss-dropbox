@@ -107,11 +107,21 @@ h3 {
     left: 0;
     right: 0;
     z-index: 1;
+    align-items: center;
 }
 
+.column {
+    height: 100%;
+}
+
+.navbar li {
+    height: 100%;
+    line-height: 80px;
+}
 
 .navbar ul {
     list-style-type: none;
+    height: 100%;
 }
 
 .navbar a {
@@ -124,7 +134,7 @@ h3 {
     display: block;
     height: 30px;
     width: 70px;
-    margin: 10px;
+    margin: 25px;
     background-color: #0061ff;
     color: #fff;
     line-height: 30px;
@@ -565,4 +575,10 @@ footer .container-big hr {
     color: #999999;
     font-size: 15px;
     border: none;
+}
+
+/* EFFETTI HOVER track: BONUS */
+
+.navbar li:hover {
+    border-bottom: 2px solid #000;
 }
